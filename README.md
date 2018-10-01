@@ -1,4 +1,4 @@
-#1. XcodeCodeSnippets-
+# 1. XcodeCodeSnippets-
 
 
 
@@ -19,7 +19,7 @@ download file and drop file to
 <br>
 <br>
 
-#2. Xcode color theme-
+# 2. Xcode color theme-
 
 use
 ----
