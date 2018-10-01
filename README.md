@@ -30,5 +30,4 @@ download file(ohlulu Tomorrow.xccolortheme) and drop file to
 ~/Library/Developer/Xcode/UserData/FontAndColorThemes/  
 ```
 
-it adapted to [tomorrow]
-(https://github.com/ChrisKempson/Tomorrow-Theme)
+it adapted to [tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme)
