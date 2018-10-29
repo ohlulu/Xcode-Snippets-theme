@@ -28,9 +28,7 @@ extension &lt;#ViewContorller#&gt;: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
-        let cell: &lt;#UITableViewCell.calss#&gt; = tableView.dequeueReusable(indexPath: indexPath)
-        
-        return cell
+        return UITableViewCell()
     }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

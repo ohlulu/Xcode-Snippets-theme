@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private let &lt;#Label#&gt;: UILabel = {
+	<string>fileprivate let &lt;#Label#&gt;: UILabel = {
         let label = UILabel()
         return label
     }()</string>

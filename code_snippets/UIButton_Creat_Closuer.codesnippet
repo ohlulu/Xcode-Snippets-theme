@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>view creat</string>
+	<string>private button creat with closure</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let &lt;# name #&gt;: UIView = {
-        let view = UIView()
-        return view
+	<string>fileprivate let &lt;#name#&gt;: UIButton = {
+        let button = UIButton()
+        return button
     }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>79B8BAAD-35F3-44C2-97C1-549283D87DF9</string>
+	<string>8F6BBCE9-D18C-44D9-8BDC-CE45F056518F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UIView init with closure</string>
+	<string>private - UIButton init with closuer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

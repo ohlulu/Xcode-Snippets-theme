@@ -3,22 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>private imageview creat with closure</string>
+	<string>setupViewConstrains</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private let &lt;#ImageView#&gt;: UIImageView = {
-        let imageView = UIImageView()
-        return imageView
-    }()</string>
+	<string>fileprivate func setupViewConstraina() {
+        
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0630F8F9-1035-4305-8CD5-E6AC5FC551D4</string>
+	<string>AAEE2801-C984-4FFF-A0D6-8D6064D3CBC0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>private - UIImageView init with closure</string>
+	<string>private func setupViewConstrains</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

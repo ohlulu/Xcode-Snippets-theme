@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>setupViewConstrains</string>
+	<string>tableview creat with closure</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private func setupViewConstraina() {
-        
-    }</string>
+	<string>fileprivate let &lt;#name#&gt;: UITableView = {
+        let table = UITableView()
+        return table
+    }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AAEE2801-C984-4FFF-A0D6-8D6064D3CBC0</string>
+	<string>E97BC836-9302-4BEC-8826-9FA32FC018C7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>private func setupViewConstrains</string>
+	<string>UITableView init with closuer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
