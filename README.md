@@ -1,33 +1,31 @@
-# 1. XcodeCodeSnippets-
+# 1. font & color theme
 
+---
 
+1.  Download font [Inconsolata From Powerline](https://github.com/powerline/fonts/raw/master/Inconsolata/Inconsolata%20for%20Powerline.otf)
 
-Some simple code to reduce meaningless input.
-
-
-
-use
-----
-
-download file and drop file to 
-
-```
-~/Library/Developer/Xcode/UserData/CodeSnippets
-```
-
-<br>
-<br>
-<br>
-
-# 2. Xcode color theme-
-
-use
-----
-
-download file(ohlulu Tomorrow.xccolortheme) and drop file to 
 
 ```
 ~/Library/Developer/Xcode/UserData/FontAndColorThemes/  
 ```
 
-it adapted to [tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme)
+
+
+# 2. Code Snippets
+
+---
+
+```shell
+~/Library/Developer/Xcode/UserData/CodeSnippets
+```
+
+
+
+# 3.Template
+
+---
+
+```
+~/Library/Developer/Xcode/Templates
+```
+

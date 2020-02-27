@@ -3,22 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>private imageview creat with closure</string>
+	<string>switchresult</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>fileprivate let &lt;#ImageView#&gt;: UIImageView = {
-        let imageView = UIImageView()
-        return imageView
-    }()</string>
+	<string>switch result {
+                case .success(let model):
+                    
+                case .failure:
+                    break
+                }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0630F8F9-1035-4305-8CD5-E6AC5FC551D4</string>
+	<string>1E62E21D-CD83-4632-B1DE-4B0E5732DCBA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>switchresult</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>private - UIImageView init with closure</string>
+	<string>switchresult</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

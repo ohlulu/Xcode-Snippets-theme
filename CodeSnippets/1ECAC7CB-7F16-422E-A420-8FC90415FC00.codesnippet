@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>private label creat with closure</string>
+	<string>docatch</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>fileprivate let &lt;#Label#&gt;: UILabel = {
-        let label = UILabel()
-        return label
-    }()</string>
+	<string>do {
+                try
+            } catch {
+                printDebug(error)
+            }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>228F5277-4E30-43AC-BE0B-373054A4C401</string>
+	<string>1ECAC7CB-7F16-422E-A420-8FC90415FC00</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>private - UILabel init with closure</string>
+	<string>do - catch</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

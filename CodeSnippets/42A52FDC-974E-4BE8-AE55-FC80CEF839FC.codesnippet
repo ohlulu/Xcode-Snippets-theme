@@ -3,26 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>private stackview creat with closure</string>
+	<string>didbag</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>fileprivate let &lt;#name#&gt;: UIStackView = {
-        let stack = UIStackView()
-        stack.axis = .horizontal
-        stack.alignment = .center
-        stack.distribution = .equalSpacing
-        stack.spacing = 0
-        return stack
-    }()</string>
+	<string>disposed(by: bag)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7CD4288F-B145-471C-B379-FFBEC9B8F40A</string>
+	<string>42A52FDC-974E-4BE8-AE55-FC80CEF839FC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>private - UIStackView init with closure</string>
+	<string>.disposed(by: bag)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

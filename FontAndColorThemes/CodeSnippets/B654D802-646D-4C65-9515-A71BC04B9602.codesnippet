@@ -3,22 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>private button creat with closure</string>
+	<string>DequeueReusable cell</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>fileprivate let &lt;#name#&gt;: UIButton = {
-        let button = UIButton()
-        return button
-    }()</string>
+	<string>let cell: &lt;#UITableViewCell.class#&gt; = tableView.dequeueReusable(indexPath: indexPath)
+        return cell</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8F6BBCE9-D18C-44D9-8BDC-CE45F056518F</string>
+	<string>B654D802-646D-4C65-9515-A71BC04B9602</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>private - UIButton init with closuer</string>
+	<string>DequeueReusable cell</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

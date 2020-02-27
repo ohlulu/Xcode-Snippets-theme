@@ -3,19 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MARK: private propoty</string>
+	<string>docatch</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>StringOrComment</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - private propoty</string>
+	<string>do {
+                try
+            } catch {
+                printDebug(error)
+            }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8B07838A-B7D5-48AE-B12C-99EA1CE4F1D1</string>
+	<string>1ECAC7CB-7F16-422E-A420-8FC90415FC00</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MARK: private propoty</string>
+	<string>do - catch</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

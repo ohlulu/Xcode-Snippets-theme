@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>setupViewConstrains</string>
+	<string>didbag</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>fileprivate func setupViewConstraina() {
-        
-    }</string>
+	<string>disposed(by: bag)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AAEE2801-C984-4FFF-A0D6-8D6064D3CBC0</string>
+	<string>42A52FDC-974E-4BE8-AE55-FC80CEF839FC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>private func setupViewConstrains</string>
+	<string>.disposed(by: bag)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

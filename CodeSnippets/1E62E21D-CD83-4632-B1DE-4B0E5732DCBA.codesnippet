@@ -3,22 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tableview creat with closure</string>
+	<string>switchresult</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>fileprivate let &lt;#name#&gt;: UITableView = {
-        let table = UITableView()
-        return table
-    }()</string>
+	<string>switch result {
+                case .success(let model):
+                    
+                case .failure:
+                    break
+                }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E97BC836-9302-4BEC-8826-9FA32FC018C7</string>
+	<string>1E62E21D-CD83-4632-B1DE-4B0E5732DCBA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>switchresult</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UITableView init with closuer</string>
+	<string>switchresult</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
