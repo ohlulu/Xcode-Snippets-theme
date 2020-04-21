@@ -88,4 +88,4 @@ checkTargetPath
 cleanReop
 syncToReop
 
-printf "${GREEN} Sync Success! 👻"
+printf "${GREEN} Sync Success! 👻\n"
