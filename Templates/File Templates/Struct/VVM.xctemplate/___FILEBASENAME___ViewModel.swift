@@ -4,7 +4,7 @@ import Foundation
 
 final class ___FILEBASENAME___: BaseViewModel {
 
-    // Relay or Subject
+    // Stream
 
     // Property
 
@@ -14,13 +14,20 @@ final class ___FILEBASENAME___: BaseViewModel {
     }
 }
 
-// MARK: - Output
+// MARK: - Input
 
 extension ___FILEBASENAME___ {
-    
+
+    func firstViewDidLoad() {
+        
+    }
+
+    func viewDidLoad() {
+
+    }
 }
 
-// MARK: - Input
+// MARK: - Output
 
 extension ___FILEBASENAME___ {
     
@@ -29,5 +36,8 @@ extension ___FILEBASENAME___ {
 // MARK: - Helper
 
 private extension ___FILEBASENAME___ {
-    
+
+    func featchData() {
+
+    }
 }

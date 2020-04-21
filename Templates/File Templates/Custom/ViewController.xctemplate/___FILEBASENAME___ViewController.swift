@@ -16,7 +16,7 @@ final class ___FILEBASENAME___: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
-        outputEvent()
+        actionStream()
         observerStream()
     }
 
@@ -25,11 +25,11 @@ final class ___FILEBASENAME___: BaseViewController {
     }
 }
 
-// MARK: - Output Event
+// MARK: - Action Stream
 
 private extension ___FILEBASENAME___ {
     
-    func outputEvent() {
+    func actionStream() {
         
     }
 }
@@ -43,7 +43,7 @@ private extension ___FILEBASENAME___ {
     }
 }
 
-// MARK: - Binder
+// MARK: - Helper
 
 private extension ___FILEBASENAME___ {
 
@@ -54,6 +54,7 @@ private extension ___FILEBASENAME___ {
 private extension ___FILEBASENAME___ {
 
     func setupUI() {
-        
+
+        navigationItem.title = ""
     }
 }

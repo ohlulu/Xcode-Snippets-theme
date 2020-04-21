@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>An empty Swift file.</string>
+	<key>Summary</key>
+	<string>An empty Swift file</string>
+	<key>SortOrder</key>
+	<string>30</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>+Cell</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Base class:</string>
+			<key>Identifier</key>
+			<string>baseClassName</string>
+			<key>Required</key>
+			<true/>
+			<key>Description</key>
+			<string>The name of the base class</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Cell mame: </string>
+			<key>Identifier</key>
+			<string>cellName</string>
+			<key>Required</key>
+			<true/>
+			<key>Description</key>
+			<string>The name of cell</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+	</array>
+</dict>
+</plist>

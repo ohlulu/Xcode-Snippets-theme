@@ -7,16 +7,18 @@ final class ___FILEBASENAME___: BaseViewController {
     // UI element
 
     // property
+    private let viewModel: ___FILEBASENAME___ViewModel
 
     // Life cycle
-    override init() {
+    init(viewModel: ___FILEBASENAME___ViewModel) {
+        self.viewModel = viewModel
         super.init()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
-        outputEvent()
+        actionStream()
         observerStream()
     }
 
@@ -25,11 +27,11 @@ final class ___FILEBASENAME___: BaseViewController {
     }
 }
 
-// MARK: - Output Event
+// MARK: - Action Stream
 
 private extension ___FILEBASENAME___ {
     
-    func outputEvent() {
+    func actionStream() {
         
     }
 }
@@ -43,7 +45,7 @@ private extension ___FILEBASENAME___ {
     }
 }
 
-// MARK: - Binder
+// MARK: - Helper
 
 private extension ___FILEBASENAME___ {
 
@@ -54,6 +56,6 @@ private extension ___FILEBASENAME___ {
 private extension ___FILEBASENAME___ {
 
     func setupUI() {
-        
+        navigationItem.title = ""
     }
 }
