@@ -1,31 +1,33 @@
-# 1. font & color theme
+## 1. Code Snippets
+
+---
+
+```shell
+~/Library/Developer/Xcode/UserData/CodeSnippets
+
+# Linux link command
+ln -s ${repo path}/CodeSnippets ~/Library/Developer/Xcode/UserData/CodeSnippets
+```
+
+## 2.Template
+
+---
+
+```shell
+~/Library/Developer/Xcode/Templates
+
+# Linux link command
+ln -s ${repo path}/Templates/File\ Templates ~/Library/Developer/Xcode/Templates/File\ Templates
+```
+
+##  3. font & color theme
 
 ---
 
 1.  Download font [Inconsolata From Powerline](https://github.com/powerline/fonts/raw/master/Inconsolata/Inconsolata%20for%20Powerline.otf)
 
 
-```
-~/Library/Developer/Xcode/UserData/FontAndColorThemes/  
-```
-
-
-
-# 2. Code Snippets
-
----
-
 ```shell
-~/Library/Developer/Xcode/UserData/CodeSnippets
-```
-
-
-
-# 3.Template
-
----
-
-```
-~/Library/Developer/Xcode/Templates
+~/Library/Developer/Xcode/UserData/FontAndColorThemes/  
 ```
 
