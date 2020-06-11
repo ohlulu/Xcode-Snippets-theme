@@ -1,15 +1,26 @@
 //___FILEHEADER___
 
 import UIKit
+import SwiftUI
+
+@available(iOS 13.0, *)
+struct ___FILEBASENAME____Preview: PreviewProvider {
+    static var vc: ___FILEBASENAME___ = ___FILEBASENAME___()
+    static var previews: some SwiftUI.View {
+        vc.previewGroups()
+    }
+}
 
 final class ___FILEBASENAME___: BaseViewController {
 
     // UI element
 
     // property
+    private let viewModel: <#BaseViewModel#>
 
     // Life cycle
-    override init() {
+    init(viewModel: <#BaseViewModel#> = ) {
+        self.viewModel = viewModel
         super.init()
     }
     
