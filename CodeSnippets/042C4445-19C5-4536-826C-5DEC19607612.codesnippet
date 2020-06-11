@@ -10,6 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>.subscribe(onNext: { [weak self] _ in
+    guard let self = self else { return }
                 &lt;#code#&gt;
             }).disposed(by: bag)</string>
 	<key>IDECodeSnippetIdentifier</key>

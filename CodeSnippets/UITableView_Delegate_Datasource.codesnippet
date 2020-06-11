@@ -42,7 +42,7 @@ extension &lt;#ViewContorller#&gt;: UITableViewDataSource {
 	<key>IDECodeSnippetSummary</key>
 	<string>extension delegate and datasource</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UITableView</string>
+	<string>UITableView delegate &amp; datasource with extension</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
