@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>oo - tableview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private lazy
+    var table = UITableView().oh
+        .register(&lt;#T##cell: T.Type##T.Type#&gt;)
+        .backgroundColor(&lt;#T##backgroundColor: UIColor##UIColor#&gt;)
+        .backgroundColor(&lt;#T##backgroundColor: UIColor##UIColor#&gt;)
+        .estimatedHeight(&lt;#T##height: CGFloat##CGFloat#&gt;, for: &lt;#T##OhSwifter&lt;UITableView&gt;.SectionType#&gt;)
+        .separatorStyle(&lt;#T##separatorStyle: UITableViewCell.SeparatorStyle##UITableViewCell.SeparatorStyle#&gt;)
+        .sectionView(UIView(), for: .footer)
+        .done()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D1B748C5-12FC-4873-9BF0-CE225D43E591</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UITableView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Initializer by OhSwifter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

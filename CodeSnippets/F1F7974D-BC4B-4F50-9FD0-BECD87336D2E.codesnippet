@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>oo - collectionview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private lazy
+    var flowLayout = UICollectionViewFlowLayout().oh
+        .scrollDirection(&lt;#T##direction: UICollectionView.ScrollDirection##UICollectionView.ScrollDirection#&gt;)
+        .minimumLineSpacing(&lt;#T##spacing: CGFloat##CGFloat#&gt;)
+        .minimumInteritemSpacing(&lt;#T##spacing: CGFloat##CGFloat#&gt;)
+        .itemSize(&lt;#T##size: CGSize##CGSize#&gt;)
+        .done()
+    
+    private lazy
+    var collectionView = UICollectionView(frame: .zero, collectionViewLayout: flowLayout).oh
+        .register(&lt;#T##cell: T.Type##T.Type#&gt;)
+        .backgroundColor(&lt;#T##backgroundColor: UIColor##UIColor#&gt;)
+        .showsVerticalIndicator(&lt;#T##showsVerticalScrollIndicator: Bool##Bool#&gt;)
+        .contentInset(&lt;#T##insets: UIEdgeInsets##UIEdgeInsets#&gt;)
+        .done()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F1F7974D-BC4B-4F50-9FD0-BECD87336D2E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UICollectionView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Initializer by OhSwifter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

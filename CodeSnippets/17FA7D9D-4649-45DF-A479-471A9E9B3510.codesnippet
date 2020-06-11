@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>oo - button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private lazy
+    var &lt;#name#&gt;Button = UIButton().oh
+        .setTitle(&lt;#T##title: String##String#&gt;, for: &lt;#T##UIControl.State#&gt;)
+        .font(&lt;#T##font: UIFont##UIFont#&gt;)
+        .setTitleColor(&lt;#T##color: UIColor##UIColor#&gt;, for: &lt;#T##UIControl.State#&gt;)
+        .done()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>17FA7D9D-4649-45DF-A479-471A9E9B3510</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIButton</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Initializer by OhSwifter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>oo - label</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private lazy
+    var &lt;#name#&gt;Label = UILabel().oh
+        .text(&lt;#T##text: String##String#&gt;)
+        .font(&lt;#T##font: UIFont!##UIFont!#&gt;)
+        .textColor(&lt;#T##color: UIColor!##UIColor!#&gt;)
+        .numberOfLines(&lt;#T##numberOfLines: Int##Int#&gt;)
+        .textAlignment(&lt;#T##textAlignment: NSTextAlignment##NSTextAlignment#&gt;)
+        .done()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>015A6393-7520-4E88-8AE7-7BBE9F63C686</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UILabel</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Initializer by OhSwifter </string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
