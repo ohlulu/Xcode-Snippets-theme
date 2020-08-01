@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>oo - tableview</string>
+	<string>oo - view</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>private lazy
-    var tableView = UITableView(frame: .zero, style: .grouped).oh
-        .register(&lt;#T##cell: T.Type##T.Type#&gt;)
+    var &lt;#name#&gt;View = UIView().oh
         .backgroundColor(&lt;#T##backgroundColor: UIColor##UIColor#&gt;)
-        .estimatedHeight(&lt;#T##height: CGFloat##CGFloat#&gt;, for: &lt;#T##OhSwifter&lt;UITableView&gt;.SectionType#&gt;)
-        .separatorStyle(.none)
-        .sectionView(UIView(), for: .footer)
+        .cornerRadius(&lt;#T##cornerRadius: CGFloat##CGFloat#&gt;)
+        .addShadow(color: &lt;#T##UIColor#&gt;, radius: &lt;#T##CGFloat#&gt;, offsetX: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, opacity: &lt;#T##Float#&gt;)
         .done()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D1B748C5-12FC-4873-9BF0-CE225D43E591</string>
+	<string>2E98AD0F-CBD6-45E0-8898-DC96C0528C09</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>UITableView</string>
+	<string>UIView</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Initializer by OhSwifter</string>
 	<key>IDECodeSnippetUserSnippet</key>

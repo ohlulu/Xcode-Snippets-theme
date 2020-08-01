@@ -18,10 +18,6 @@ final class ___FILEBASENAME___: BaseViewModel {
 
 extension ___FILEBASENAME___ {
 
-    func firstViewDidLoad() {
-        
-    }
-
     func viewDidLoad() {
 
     }
