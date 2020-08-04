@@ -3,29 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>oo - view</string>
+	<string>tableview - viewmodel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private lazy
-    var &lt;#name#&gt;View = UIView().oh
-        .backgroundColor(&lt;#T##backgroundColor: UIColor##UIColor#&gt;)
-        .cornerRadius(&lt;#T##cornerRadius: CGFloat##CGFloat#&gt;)
-        .addShadow(color: &lt;#T##UIColor#&gt;, radius: &lt;#T##CGFloat#&gt;, offsetX: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, opacity: &lt;#T##Float#&gt;)
-        .done()</string>
+	<string>func numberOfSection() -&gt; Int {
+        0
+    }
+    
+    func numberOfRow(at section: Int) -&gt; Int {
+        0
+    }
+    
+    func cellProvider(at indexPath: IndexPath) -&gt; CellViewProvider {
+        fatalError()
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2E98AD0F-CBD6-45E0-8898-DC96C0528C09</string>
+	<string>F7DE9B47-D7C4-4DA6-8C37-838FC05BD535</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>UIView</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>OhSwifter - UIView Initializer</string>
+	<string>TableView dataSource at viewmodel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -30,7 +30,12 @@ extension &lt;#ViewContorller#&gt;: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
-        return UITableViewCell()
+        let model = viewModel.cellProvider(at: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: model.cellID, for: indexPath)
+        if let cell = cell as? CellConfigurable {
+            cell.configCell(with: model)
+        }
+        return cell
     }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

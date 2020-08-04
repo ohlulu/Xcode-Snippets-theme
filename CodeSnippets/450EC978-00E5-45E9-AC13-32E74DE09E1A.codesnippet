@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>docatch</string>
+	<string>oo - imageview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>do {
-                try
-            } catch {
-                printDebug(error)
-            }</string>
+	<string>private lazy
+var &lt;#name#&gt;imageView = UIImageView(image: &lt;#image#&gt;).oh
+            .contentMode(.scaleAspectFill)
+            .clipsToBounds(true)
+            .done()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1ECAC7CB-7F16-422E-A420-8FC90415FC00</string>
+	<string>450EC978-00E5-45E9-AC13-32E74DE09E1A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>do - catch</string>
+	<string>OhSwifter - UIimageView Initializer </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
