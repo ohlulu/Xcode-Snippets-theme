@@ -3,31 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tableview - viewmodel</string>
+	<string>tt</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>func numberOfSection() -&gt; Int {
-        0
-    }
-    
-    func numberOfRow(at section: Int) -&gt; Int {
-        0
-    }
-    
-    func cellProvider(at indexPath: IndexPath) -&gt; CellViewProvider {
-        fatalError()
-    }</string>
+	<string>// TODO : </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F7DE9B47-D7C4-4DA6-8C37-838FC05BD535</string>
+	<string>1EBA87DA-AF3A-4C34-89C3-06038A9ECBAE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>// TODO :</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TableView dataSource at viewmodel</string>
+	<string>// TODO :</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
