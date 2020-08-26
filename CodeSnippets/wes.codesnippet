@@ -14,8 +14,6 @@
 	<string>8AB6320C-6AA0-4403-8363-66131521AC82</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>[weak self]</string>
 	<key>IDECodeSnippetTitle</key>
